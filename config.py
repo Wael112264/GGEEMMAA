@@ -9,17 +9,17 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "6435225"))
 API_HASH = getenv("API_HASH", "4e984ea35f854762dcde906dce426c2d")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "7923397437:AAFGaiTRxihdNa8WfDnavSUDytT1NSndC9I")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://moha13828med:Mohamedwael454@cluster0.no0u0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1001971806089))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID",-1002467307264))
 
-OWNER_ID = int(getenv("OWNER_ID", 7045191057))
+OWNER_ID = int(getenv("OWNER_ID", 6425347654))
 
-OWNER = int(getenv("OWNER", 2105971379))
+OWNER = int(getenv("OWNER", 6425347654))
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -27,13 +27,13 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY","HK543fklqxgt66hvxf")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AbhiModszYT/AnieXEricaMusic",
+    "https://github.com/Wael112264/GGEEMMAA",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SuperBanSBots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/G_aE5")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "2a230af10e0a40638dc77c1febb47170")
